@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+/* * {
+    box-sizing: border-box;
+  }
+   */
+body {
+    background-color: white;
+    font-family: 'League Spartan', sans-serif;
+    width:auto;
+    background-image: url("bg-pattern-top-desktop.svg"), url("bg-pattern-bottom-desktop.svg");
+    background-position: left 0% top 0%, right 10% bottom 120%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 80px;
+
+}
+
+.text-container {
+    width: 350px;
+    height: 200px;
+    background-color: transparent;
+    line-height: 17px;
+    
+}
+#text-1 {
+    font-size: 40px;
+    font-weight: 700; 
+    line-height: 90%;
+    color: hsl(300, 43%, 22%);
+    padding: 12px;
+}
+#text-2 {
+    font-size: 14px;
+    padding: 12px;
+    color: hsl(303, 10%, 53%)
+}
+
+.icons {
+    float: right;
+    position: relative;
+    top: -238px;
+    padding: 60px;
+}
+.r-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: small;
+    position: relative;
+    right: 50%;
+    width: 300px;
+    height: 17px;
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+}
+.r-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: small;
+    position: relative;
+    right: 30%;
+    width: 300px;
+    height: 17px;
+    top: 15px;
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+
+}
+.r-3 {
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: small;
+    right: 10%;
+    width: 300px;
+    height: 17px;
+    top: 30px;
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+}
+img {
+    width: 14px;   
+}
+.reviewer-1 {
+    width: 275px;
+    height: 180px;
+    background-color: hsl(300, 43%, 22%);
+    position: relative;
+    left: 14px;
+    top: 40px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+}
+.reviewer-2 {
+    width: 275px;
+    height: 180px;
+    background-color: hsl(300, 43%, 22%);
+    position: relative;
+    left: 315px;
+    bottom: 165px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+}
+.reviewer-3 {
+    width: 275px;
+    height: 180px;
+    background-color: hsl(300, 43%, 22%);
+    float: right;
+    position: relative;
+    left: 355px;
+    bottom: 160px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+}
+#header {
+    position: relative;
+    display: flex;
+}
+#pic {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border-radius: 18px 18px 18px 18px;
+}
+#names {
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+#verification {
+    color: hsl(333, 80%, 67%);
+    position: relative;
+    right: 57px;
+    top: 9px;
+}
+#reviews {
+    color: white;
+}
